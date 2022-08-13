@@ -26,7 +26,8 @@ Todos los archivos presentes tienen un orden de ejecucion, listare los nombres d
 
 ## Instalación
 Primero colocaremos los archivos en el servidor de cloudera.
-![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png)
+Los archivos y carpeta resaltados, son los que deben estar segun imagen:
+![Ruta de archivos en cloudera](images/p2.png)
 ```bash
 pip install foobar
 ```
