@@ -23,3 +23,10 @@ Todos los archivos presentes tienen un orden de ejecucion, listare los nombres d
 - 3_ScriptMysql.sh : Este archivo contiene los script para la ejecucion de la creacion de Tablas MYSQL.
 - 4_HiveComandos.sh : Este archivo ejecuta los comandos para la creacion de las estructuras de tablas en HIVE.
 - 5_HiveComandos_Rollback.sh : Este archivo Borra las tablas en HIVE.
+
+## Instalación
+Primero colocaremos los archivos en el servidor de cloudera.
+![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png)
+```bash
+pip install foobar
+```
