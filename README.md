@@ -8,6 +8,8 @@ El area de Marketing, va colocar un nuevo producto bancario, para un sector de s
 Por tal motivo se le ofrece al usuario una solucion basada en HADOOP, el cual replicaria su data del ambiente productivo a ambiente BIGDATA, asimismo se le ha ofrecido por lineamiento interno del banco, crear una tabla en MYSQL para que que usuario pueda disponer.
 El usuario realizara sus reportes en POWERBI, conectandose directamente a HIVE.
 
+![Ruta de archivos en cloudera](images/Arquitectura.jpg)
+
 ## Elementos
 La Instalación consta de archivos y carpetas, que se detallaran:
 ### Carpetas
