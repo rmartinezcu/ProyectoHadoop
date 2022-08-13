@@ -25,9 +25,27 @@ Todos los archivos presentes tienen un orden de ejecucion, listare los nombres d
 - 5_HiveComandos_Rollback.sh : Este archivo Borra las tablas en HIVE.
 
 ## Instalación
+
 Primero colocaremos los archivos en el servidor de cloudera.
 Los archivos y carpeta resaltados, son los que deben estar segun imagen:
 ![Ruta de archivos en cloudera](images/p2.png)
+1. Se ejecutara el archivo: 1_Primero.sh en consola, con el parametro "grupo5Proy"
 ```bash
-pip install foobar
+sh 1_Primero.sh grupo5Proy
+```
+2. Se ejecutara el archivo: 2_SqoopProceso.sh en consola, con el parametro "grupo5Proy"
+```bash
+sh 2_SqoopProceso.sh grupo5Proy
+```
+3. Se ejecutara el archivo: 3_ScriptMysql.sh en consola
+```bash
+sh 3_ScriptMysql.sh
+```
+4. Se ejecutara el archivo: 4_HiveComandos.sh en consola
+```bash
+sh 4_HiveComandos.sh
+```
+Si es necesario eliminar las tablas en HIVE, ejecutaremos:
+```bash
+sh 5_HiveComandos_Rollback.sh
 ```
