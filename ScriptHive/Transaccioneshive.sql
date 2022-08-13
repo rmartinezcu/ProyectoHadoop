@@ -1,17 +1,17 @@
-CREATE TABLE ejemplo.TRANSACCIONESM(
+CREATE EXTERNAL TABLE ejemplo.TRANSACCIONESM(
   USUARIO INT,
   TARJETA STRING,
   ANIO INT,
   MES INT,
   dia INT,
   tiempo STRING,
-  monto  DECIMAL,
+  monto  STRING,
   tipo STRING,
   nombre STRING,
   ciudad STRING,
   estado STRING,
-  postal INT,
-  MCC INT,
+  postal STRING,
+  MCC STRING,
   errores STRING,
   fraude STRING
 )

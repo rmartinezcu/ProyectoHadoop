@@ -21,12 +21,10 @@ hdfs dfs -mkdir \
 /user/maria_dev/${PARAM_USERNAME}/Transacciones \
 /user/maria_dev/${PARAM_USERNAME}/Tarjetas \
 /user/maria_dev/${PARAM_USERNAME}/Usuarios \
-/user/maria_dev/${PARAM_USERNAME}/TransaccionesUsuarios
 echo "Subiendo los archivos....."
 hdfs dfs -put /home/maria_dev/Proyecto2022/credit_card_trans.csv /user/maria_dev/${PARAM_USERNAME}/Transacciones
 hdfs dfs -put /home/maria_dev/Proyecto2022/sd254_cards.csv /user/maria_dev/${PARAM_USERNAME}/Tarjetas
 hdfs dfs -put /home/maria_dev/Proyecto2022/sd254_users.csv /user/maria_dev/${PARAM_USERNAME}/Usuarios
-hdfs dfs -put /home/maria_dev/Proyecto2022/User0_credit_card_transactions.csv /user/maria_dev/${PARAM_USERNAME}/TransaccionesUsuarios
 #Verificamos
 echo "Listando ...."
 hdfs dfs -ls -R /user/maria_dev/${PARAM_USERNAME}
@@ -36,4 +34,3 @@ echo "Asignando permisos..."
 hdfs dfs -chmod 755 /user/maria_dev/${PARAM_USERNAME}/Transacciones
 hdfs dfs -chmod 755 /user/maria_dev/${PARAM_USERNAME}/Tarjetas
 hdfs dfs -chmod 755 /user/maria_dev/${PARAM_USERNAME}/Usuarios
-hdfs dfs -chmod 755 /user/maria_dev/${PARAM_USERNAME}/TransaccionesUsuarios
