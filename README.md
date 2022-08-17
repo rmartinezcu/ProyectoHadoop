@@ -20,7 +20,7 @@ La Instalación consta de archivos y carpetas, que se detallaran:
 ### Archivos
 Todos los archivos presentes tienen un orden de ejecucion, listare los nombres de los archivos y funcionalidad:
 
-- 1_Primero.sh : En este archivo se encuentra los comandos Hadoop, Crear carpetas en HDFS, sube archivos y da privilegios.
+- 1_HdfsComands.sh : En este archivo se encuentra los comandos Hadoop, Crear carpetas en HDFS, sube archivos y da privilegios.
 - 2_SqoopProceso.sh : Este archivo ejecuta el proceso por el cual los archivos HDFS, pasan a MYSQL por medio de SQOOP.
 - 3_ScriptMysql.sh : Este archivo contiene los script para la ejecucion de la creacion de Tablas MYSQL.
 - 4_HiveComandos.sh : Este archivo ejecuta los comandos para la creacion de las estructuras de tablas en HIVE.
