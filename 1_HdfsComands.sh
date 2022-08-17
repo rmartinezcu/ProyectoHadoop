@@ -16,7 +16,6 @@ echo "Carpeta eliminada en HDFS....."
 echo "Creando carpeta raiz....."
 hdfs dfs -mkdir /user/maria_dev/${PARAM_USERNAME}
 echo "Creando la carpeta del ejercicio....."
-echo /user/maria_dev/${PARAM_USERNAME}/Transacciones
 hdfs dfs -mkdir \
 /user/maria_dev/${PARAM_USERNAME}/Transacciones \
 /user/maria_dev/${PARAM_USERNAME}/Tarjetas \
