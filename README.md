@@ -52,7 +52,9 @@ Si es necesario eliminar las tablas en HIVE, ejecutaremos:
 sh 5_HiveComandos_Rollback.sh
 ```
 ## Configuracion de Conexión
+
 Se configura el ODBC del Sistema operativo, la configuracion por defecto es:
+
 ![Ruta de archivos en cloudera](images/ODBCHive.png)
 
 Se realiza la prueba de conexion:
