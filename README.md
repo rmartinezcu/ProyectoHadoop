@@ -33,7 +33,7 @@ Los archivos y carpeta resaltados, son los que deben estar segun imagen:
 ![Ruta de archivos en cloudera](images/p2.png)
 1. Se ejecutara el archivo: 1_Primero.sh en consola, con el parametro "grupo5Proy"
 ```bash
-sh 1_HdfsComands.sh grupo5Proy
+sh 1_HdfsComands.sh Produccion2022
 ```
 ![Ruta de archivos en cloudera](images/hdfs1.png)
 2. Se ejecutara el archivo: 2_SqoopProceso.sh en consola, con el parametro "grupo5Proy"
