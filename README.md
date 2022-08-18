@@ -35,6 +35,7 @@ Los archivos y carpeta resaltados, son los que deben estar segun imagen:
 ```bash
 sh 1_HdfsComands.sh grupo5Proy
 ```
+![Ruta de archivos en cloudera](images/hdfs1.png)
 2. Se ejecutara el archivo: 2_SqoopProceso.sh en consola, con el parametro "grupo5Proy"
 ```bash
 sh 2_SqoopProceso.sh grupo5Proy
@@ -47,6 +48,8 @@ sh 3_ScriptMysql.sh
 ```bash
 sh 4_HiveComandos.sh
 ```
+![Ruta de archivos en cloudera](images/hdfs1.png)
+
 Si es necesario eliminar las tablas en HIVE, ejecutaremos:
 ```bash
 sh 5_HiveComandos_Rollback.sh
